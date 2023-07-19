@@ -469,7 +469,14 @@ li a {
         padding: 20px;
 
     }
-
+    .footer-description a {
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .footer-policy-container{
+        margin-left: 0px;
+        padding: 20px;
+    }
 
 
 
