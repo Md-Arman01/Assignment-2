@@ -97,10 +97,11 @@ li a {
     background: rgba(11, 2, 35, 0.10);
 }
 
-.follow-container h4 {
+.follow-container a {
     color: #3C354F;
     font-size: 15px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .yticon {
