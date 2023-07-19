@@ -307,8 +307,10 @@ li a {
 }
 
 .circle-card:hover{
-    color: #FF42A5;
     border: 1px solid #FF42A5;
+}
+.circle-card h3:hover{
+    color: #FF42A5;
 }
 .circle-card h3 {
     color: #0B0223;
