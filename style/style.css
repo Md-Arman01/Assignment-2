@@ -287,7 +287,8 @@ li a {
 
     .nav-container,
     .nav-content,
-    .card-container {
+    .card-container,
+    .play-game-container {
         flex-direction: column;
     }
     
@@ -336,5 +337,35 @@ li a {
     .card{
         margin:10px auto;
     }
+    .play-game-container{
+        margin: 0 ;
+        margin-top: 0;
+    }
+    .play-game-content {
+        width: auto;
+        height: 300px;
+        margin-top: 0px;
+    }
+    .play-game-title{
+        text-align: center;
+    }
+    .play-game-description{
+        text-align: center;
+    }
+    
+    .rectangle55-img {
+        width: 100%;
+        padding-left: 100px;
+    }
+    .play-game-img{
+        position: relative;
+        top: -200px;
+
+    
+    }
+    
+
+
+
 
 }
