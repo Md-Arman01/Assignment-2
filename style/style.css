@@ -28,6 +28,14 @@
     font-size: 15px;
     font-weight: 500;
 }
+.primary {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* header section */
 
@@ -196,14 +204,7 @@ li a {
     margin-top: 50px;
 }
 
-.funny-videos {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    font-weight: 700;
-}
+
 
 .online-game-description {
     color: #534C64;
@@ -234,9 +235,43 @@ li a {
     line-height: 20px;
     margin-top: 20px;
 }
+/* play game online section */
 
+.play-game-container {
+    display: flex;
+    height: 700px;
+    gap: 50px;
+    margin: 0 230px;
+    margin-top: 50px;
+}
+.play-game-content{
+    width: 50%;
+    height: 300px;
+    margin-top: 200px;
+}
+.play-game-title{
+    color: #0B0223;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.play-game-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.rectangle55-img {
+    width: 100%;
+    padding-left: 180px;
+}
+.play-game-img{
+    position: relative;
+    top: -250px;
 
-
+}
 
 
 
