@@ -3,7 +3,10 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 * {
     box-sizing: border-box;
 }
@@ -11,7 +14,17 @@
 /* primary class */
 
 .g-primary {
-    color: #FF42A5
+    color: #FF42A5;
+}
+
+.btn-primary {
+    background-color: #FF42A5;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* header section */
@@ -23,9 +36,9 @@
     display: flex;
     justify-content: space-between;
     padding: 0 230px;
-    /* border: 0; */
+    border: 0;
     background-color: #FFF;
-    /* box-shadow: 1px 1px 8px black; */
+    /* box-shadow: 0.5px 0.5px 4px black; */
 }
 
 .logo {
@@ -78,12 +91,99 @@ li a {
     font-size: 15px;
     font-weight: 500;
 }
-.yticon{
+
+.yticon {
     font-size: 25px;
 }
-.tikicon{
-     font-size: 20px;
+
+.tikicon {
+    font-size: 20px;
 }
+
+/* banner section */
+
+.banner-container {
+    
+    display: flex;
+    
+    height: 600px;
+    gap: 100px;
+    
+}
+.banner-content{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 150px 230px;
+    
+    
+}
+.img-container{
+    width: 50%;
+    margin-right: 230px;
+    
+}
+
+.banner-img {
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.goat {
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.instant-play {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.download {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.supported {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.btn-go{
+    background-color: #4EC5F7;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+
+
+
 
 
 
@@ -93,14 +193,39 @@ li a {
 /* responsive in mobile/small device */
 
 @media screen and (max-width:576px) {
+
     .nav-container,
     .nav-content {
         flex-direction: column;
     }
-    .nav-container{
+
+    .nav-container {
         padding: 0px;
+        margin-top: 50px;
     }
-    .logo-container{
+    .nav-content{
+        margin-top: 20px;
+    }
+
+    .logo-container {
         justify-content: center;
     }
+/*  */
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        height: auto;
+        gap: 10px;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 50px;
+    }
+    .img-container{
+        width: 100%;
+        margin-right: 230px;
+        
+    }
+
+
 }
