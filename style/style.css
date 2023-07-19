@@ -3,10 +3,12 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -103,44 +105,46 @@ li a {
 /* banner section */
 
 .banner-container {
-    
+
     display: flex;
-    
+
     height: 600px;
     gap: 100px;
-    
+
 }
-.banner-content{
+
+.banner-content {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     padding: 150px 230px;
-    
-    
+
+
 }
-.img-container{
+
+.img-container {
     width: 50%;
     margin-right: 230px;
-    
+
 }
 
 .banner-img {
-    
+
     height: 100%;
     width: 100%;
-    
+
 }
 
 .banner-title {
     color: #0B0223;
     font-size: 35px;
     font-weight: 600;
-    
+
 }
 
 .goat {
-    
+
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -170,7 +174,8 @@ li a {
     font-weight: 500;
     margin-bottom: 20px;
 }
-.btn-go{
+
+.btn-go {
     background-color: #4EC5F7;
     color: white;
     border: 0;
@@ -180,6 +185,57 @@ li a {
     font-weight: 500;
     margin-left: 15px;
 }
+
+/* online game section */
+
+.online-game-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.online-game-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 230px;
+
+}
+
+.card-img {
+    width: 300px;
+}
+
+.card {
+    height: 450px;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
 
 
 
@@ -203,28 +259,32 @@ li a {
         padding: 0px;
         margin-top: 50px;
     }
-    .nav-content{
+
+    .nav-content {
         margin-top: 20px;
     }
 
     .logo-container {
         justify-content: center;
     }
-/*  */
-    .banner-container{
+
+    /*  */
+    .banner-container {
         flex-direction: column-reverse;
         margin-top: 150px;
         height: auto;
         gap: 10px;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
         padding: 50px;
     }
-    .img-container{
+
+    .img-container {
         width: 100%;
         margin-right: 230px;
-        
+
     }
 
 
