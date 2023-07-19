@@ -251,10 +251,11 @@ li a {
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .nav-content {
+    .nav-content,
+    .card-container {
         flex-direction: column;
     }
-
+    
     .nav-container {
         padding: 0px;
         margin-top: 50px;
@@ -286,6 +287,19 @@ li a {
         margin-right: 230px;
 
     }
-
+    
+    .online-game-title, .funny-videos{
+        font-size: 30px;
+    }
+    .online-game-description{
+        font-size: 12px;
+    }
+    .card-container{
+        padding: 20px;
+        width: 100%;
+    }
+    .card{
+        margin:10px auto;
+    }
 
 }
