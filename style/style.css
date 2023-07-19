@@ -483,7 +483,56 @@ li a {
         padding: 20px;
     }
 
+}
 
+/* responsive tablet */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container{
+       padding: 30px;
+       gap: 0px;
+    }
 
-
+    .banner-container {
+        height: auto;
+        gap: 100px;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .img-container {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .play-game-container {
+        height: auto;
+        gap: 50px;
+        margin: 0px;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .play-game-content {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .play-game-title{
+        text-align: center;
+    }
+    .play-game-description{
+        text-align: center;
+    }
+    .circle-img-container {
+        height: auto;
+        padding: 20px;
+        margin-top: -120px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px 50px;
+    }
+    .footer-description a {
+        margin-left: 20px;
+    }
 }
