@@ -28,6 +28,7 @@
     font-size: 15px;
     font-weight: 500;
 }
+
 .primary {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -235,6 +236,7 @@ li a {
     line-height: 20px;
     margin-top: 20px;
 }
+
 /* play game online section */
 
 .play-game-container {
@@ -244,34 +246,71 @@ li a {
     margin: 0 230px;
     margin-top: 50px;
 }
-.play-game-content{
+
+.play-game-content {
     width: 50%;
     height: 300px;
     margin-top: 200px;
 }
-.play-game-title{
+
+.play-game-title {
     color: #0B0223;
     text-align: right;
     font-size: 40px;
     font-weight: 700;
     margin-top: 50px;
 }
-.play-game-description{
+
+.play-game-description {
     color: #534C64;
     text-align: right;
     font-size: 14px;
     line-height: 20px;
     margin-top: 20px;
 }
+
 .rectangle55-img {
     width: 100%;
     padding-left: 180px;
 }
-.play-game-img{
+
+.play-game-img {
     position: relative;
     top: -250px;
 
 }
+
+/* cicle section */
+
+.circle-container {
+    height: 250PX;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 40px 230px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+}
+
+.circle-card {
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.circle-card h3 {
+    color: #0B0223;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
 
 
 
@@ -291,7 +330,7 @@ li a {
     .play-game-container {
         flex-direction: column;
     }
-    
+
     .nav-container {
         padding: 0px;
         margin-top: 50px;
@@ -323,47 +362,56 @@ li a {
         margin-right: 230px;
 
     }
-    
-    .online-game-title, .funny-videos{
+
+    .online-game-title,
+    .funny-videos {
         font-size: 30px;
     }
-    .online-game-description{
+
+    .online-game-description {
         font-size: 12px;
     }
-    .card-container{
+
+    .card-container {
         padding: 20px;
         width: 100%;
     }
-    .card{
-        margin:10px auto;
+
+    .card {
+        margin: 10px auto;
     }
-    .play-game-container{
-        margin: 0 ;
+
+    .play-game-container {
+        margin: 0;
         margin-top: 0;
     }
+
     .play-game-content {
         width: auto;
         height: 300px;
         margin-top: 0px;
     }
-    .play-game-title{
+
+    .play-game-title {
         text-align: center;
     }
-    .play-game-description{
+
+    .play-game-description {
         text-align: center;
     }
-    
+
     .rectangle55-img {
         width: 100%;
         padding-left: 100px;
     }
-    .play-game-img{
+
+    .play-game-img {
         position: relative;
         top: -200px;
 
-    
+
     }
-    
+
 
 
 
